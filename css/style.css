@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+}
+
+table * {
+    border: 1px solid black;
+}
+
+.not_found {
+    font-family: 'Marko One', serif;
+    margin-top: 200px;
+}
+
+.active_tab {
+    color: red !important;
+    font-weight: bold !important;
+    font-size: large;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 60px 0px;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.ico-wrap {
+    color: #ecab00;
+    width: 50px;
+    height: 50px;
+    margin: 25px 20px 2px 2px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #ecab00;
+    float: left;
+}
+.ico-contact {
+    line-height: 1.9 !important;
+}
+.descript-wrapper {
+    float: left;
+    margin-bottom: 20px;
+}
+.aio-icon-title {
+    font-size: 18px;
+    color: #ecab00;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .descript-wrapper,
+    .ico-wrap {
+        float: none;
+        text-align: center;
+    }
+    .ico-wrap {
+        margin: 0 auto 15px auto;
+    }
+}
